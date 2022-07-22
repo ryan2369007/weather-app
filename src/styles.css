@@ -1,0 +1,60 @@
+.container {
+    margin: 20px auto 0;
+    width: 100%;
+}
+
+.weatherapp {
+    background-color: #0000;
+    border: 2px solid #d17df7;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+div {
+    color: #5A6275;
+}
+
+.current {
+    text-align: center;
+    margin: 5px;
+}
+
+.city {
+    margin: 0;
+    font-weight: 650;
+    font-size: 1.5rem;
+}
+
+.currenttemp {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 75%;
+}
+
+.currentforecast {
+    text-transform: capitalize;
+}
+
+.units {
+    font-size: 0.75rem;
+    position: relative;
+    top: -15px;
+}
+
+.forecast {
+    text-align: center;
+    margin: 15px auto 60px;
+    font-size: 1.2rem;
+    line-height: 120%;
+}
+
+.lastupdate {
+    font-size: 10px;
+    text-align: right;
+}
+
+footer {
+    display: absolute;
+}
